@@ -14,8 +14,8 @@ export default class Default extends Component {
               the requested URL
               <span className='text-danger'>
                 {this.props.location.pathname}
-              </span>
-              {''} was not found
+              </span>{' '}
+              was not found
             </h3>
           </div>
         </div>
